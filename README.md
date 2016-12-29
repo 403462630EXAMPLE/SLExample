@@ -1,5 +1,6 @@
-#### Custom Tabs
+#### 1. Custom Tabs
 优点：
+
 1. 自定义 UI: 包括 Toolbar 颜色，Action 按钮，自定义 menu 选项，自定义进/出动画
 
 2. 预先加载网页内容，从而就快加载速度
@@ -16,7 +17,7 @@
 
 建议加载第三方的url用Custom Tabs， 自己的url还是用WebView
 
-#### BottomSheet
+#### 2. BottomSheet
 
 1. BottomSheetBehavior
 
@@ -32,11 +33,11 @@
 
 在FcBottomSheetDialog 修复以上缺点
 
-#### FragmentTransaction commitNow方法
+#### 3. FragmentTransaction commitNow方法
 
 相当于commit + executePendingTransactions, 但是不会放入Back stack中
 
-#### VectorDrawable 矢量图
+#### 4. VectorDrawable 矢量图
 
 优点：
 
@@ -74,12 +75,12 @@ JobScheduler特性：
 
 https://www.zhihu.com/question/24360587
 
-#### battery historian
+#### 5. battery historian
 
 请查看[Android 性能测试工具的使用](https://www.kancloud.cn/digest/itfootballprefermanc/100905)
 
 
-#### webp
+#### 6. webp
 1. API>=14 开始支持，但是支持不是很好，API>=17 则基本完美支持，但是对透明的webp不支持，API>=18 则开始支持透明的webp
 2. Android Studio 2.2 开始支持webp
 3. Android 暂时不支持动态webp
