@@ -1,4 +1,4 @@
-##### Custom Tabs
+#### Custom Tabs
 优点：
 1. 自定义 UI: 包括 Toolbar 颜色，Action 按钮，自定义 menu 选项，自定义进/出动画
 
@@ -16,7 +16,7 @@
 
 建议加载第三方的url用Custom Tabs， 自己的url还是用WebView
 
-##### BottomSheet
+#### BottomSheet
 
 1. BottomSheetBehavior
 
@@ -32,11 +32,11 @@
 
 在FcBottomSheetDialog 修复以上缺点
 
-##### FragmentTransaction commitNow方法
+#### FragmentTransaction commitNow方法
 
 相当于commit + executePendingTransactions, 但是不会放入Back stack中
 
-##### VectorDrawable 矢量图
+#### VectorDrawable 矢量图
 
 优点：
 
@@ -46,7 +46,7 @@
 
 请查看[Vector Asset Studio的使用](http://www.jianshu.com/p/d6c39f2dd5e7)
 
-##### Firebase JobDispatcher
+#### Firebase JobDispatcher
 
 Android系统提供的JobDispatcher要求API>=21, 如果要支持低版本就必须导入[Firebase JobDispatcher](https://github.com/firebase/firebase-jobdispatcher-android)
 
@@ -74,12 +74,12 @@ JobScheduler特性：
 
 https://www.zhihu.com/question/24360587
 
-##### battery historian
+#### battery historian
 
 请查看[Android 性能测试工具的使用](https://www.kancloud.cn/digest/itfootballprefermanc/100905)
 
 
-##### webp
+#### webp
 1. API>=14 开始支持，但是支持不是很好，API>=17 则基本完美支持，但是对透明的webp不支持，API>=18 则开始支持透明的webp
 2. Android Studio 2.2 开始支持webp
 3. Android 暂时不支持动态webp
